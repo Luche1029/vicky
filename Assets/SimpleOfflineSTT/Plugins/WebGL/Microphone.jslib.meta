@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7deecddd15d354444ba9555359565c00
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Plugins/WebGL/Microphone.jslib
+  uploadId: 874732

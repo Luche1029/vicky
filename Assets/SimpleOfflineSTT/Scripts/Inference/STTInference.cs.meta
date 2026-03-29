@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0637ef247f09def4b81d593cbef34919
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Scripts/Inference/STTInference.cs
+  uploadId: 874732

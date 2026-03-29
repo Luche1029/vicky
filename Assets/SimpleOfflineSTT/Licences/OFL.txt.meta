@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56ba706904a577043a129632ec0289a7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Licences/OFL.txt
+  uploadId: 874732

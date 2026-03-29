@@ -1,0 +1,26 @@
+This asset includes pre-trained audio dsp and speech recognition models
+licensed under the Apache License, Version 2.0.
+
+Model:
+- whisper-tiny (English)
+- Distributed via OpenAI on Hugging Face
+
+Copyright © The original authors.
+
+Licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Microphone icons created by judanna - Flaticon
+https://www.flaticon.com/free-icons/microphone
+
+Button icons created by judanna - Flaticon
+https://www.flaticon.com/free-icons/button
+
+This asset includes the following fonts
+licensed under the SIL Open Font License.
+
+Fonts:
+Noto Sans SC
+https://fonts.google.com/noto/specimen/Noto+Sans+SC

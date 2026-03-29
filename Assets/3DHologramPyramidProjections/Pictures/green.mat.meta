@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 930e9aa0393064e4e988d23da2fa0c83
+timeCreated: 1556967571
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/Pictures/green.mat
+  uploadId: 309070

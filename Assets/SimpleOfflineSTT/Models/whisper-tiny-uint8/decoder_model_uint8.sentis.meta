@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: d1e338b669e80ed40bf1d2e29aa614ae
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Models/whisper-tiny-uint8/decoder_model_uint8.sentis
+  uploadId: 874732
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d416c695138885743b59877b4a1c2f5a, type: 3}
+  dynamicDimConfigs:
+  - name: batch_size
+    size: -1
+  - name: decoder_sequence_length
+    size: -1
+  - name: encoder_sequence_length / 2
+    size: -1

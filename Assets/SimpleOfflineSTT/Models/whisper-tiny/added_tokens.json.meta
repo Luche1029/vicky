@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 321ef0f7d74b8e14da7289aff372b86d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Models/whisper-tiny/added_tokens.json
+  uploadId: 874732

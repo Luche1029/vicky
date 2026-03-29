@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: b90fb45225473485f86288e0354880f7
+timeCreated: 1550510179
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/Scripts/screenSetUp.cs
+  uploadId: 309070

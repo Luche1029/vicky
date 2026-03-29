@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 526d9140d67466a4ca2b8908fc6079d1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Licences/Apache-2.0.txt
+  uploadId: 874732

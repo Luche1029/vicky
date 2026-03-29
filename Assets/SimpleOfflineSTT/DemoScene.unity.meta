@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f79f9127037d1f24f9f0e0a33a77dbff
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/DemoScene.unity
+  uploadId: 874732

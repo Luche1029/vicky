@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7941aee4ebb6e9244ac4a4d8bcb4c11d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Scripts/Runtime/STTMicrophone.cs
+  uploadId: 874732

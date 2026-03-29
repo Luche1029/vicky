@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a31deeb7dcca434aa91b97aa3230439
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Licences/THIRD_PARTY_NOTICES.txt
+  uploadId: 874732

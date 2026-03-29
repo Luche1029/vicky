@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d393c02c768890d4aae46adfc2ecb535
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Scripts/Runtime/AudioTranscriptionQueue.cs
+  uploadId: 874732

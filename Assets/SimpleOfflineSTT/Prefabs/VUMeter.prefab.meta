@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dfb162438ac28dc41b0b5980906e5412
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Prefabs/VUMeter.prefab
+  uploadId: 874732

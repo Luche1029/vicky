@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8e93521d67bafac48ae837a8cf8bbcfe
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Scripts/Runtime/WebGLMic.cs
+  uploadId: 874732

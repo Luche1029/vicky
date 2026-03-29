@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dc606c16c625d914f92a07a3d9345eb3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 134800
+  packageName: Avatar Maker Pro - 3D avatar from a single selfie
+  packageVersion: 1.3.1
+  assetPath: Assets/itseez3d/avatar_maker/scripts/editor/AvatarMakerWindow.cs
+  uploadId: 435358

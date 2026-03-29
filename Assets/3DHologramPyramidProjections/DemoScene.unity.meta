@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 30ca3ad34d58140e0bd91b12aaf218e6
+timeCreated: 1550481482
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/DemoScene.unity
+  uploadId: 309070

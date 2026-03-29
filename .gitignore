@@ -97,3 +97,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Modelli Whisper e file grandi
+/[Aa]ssets/SimpleOfflineSTT/Models/whisper-tiny/decoder_model.onnx
+/[Aa]ssets/SimpleOfflineSTT/Models/whisper-tiny/decoder_with_past_model.onnx

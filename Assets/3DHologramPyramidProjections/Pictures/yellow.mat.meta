@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0eb7d12e08357422ba68d605b81ea02d
+timeCreated: 1556967613
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/Pictures/yellow.mat
+  uploadId: 309070

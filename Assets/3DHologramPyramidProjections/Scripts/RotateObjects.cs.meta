@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: d63b38d4afd264489a0bc313994952b0
+timeCreated: 1550484772
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/Scripts/RotateObjects.cs
+  uploadId: 309070

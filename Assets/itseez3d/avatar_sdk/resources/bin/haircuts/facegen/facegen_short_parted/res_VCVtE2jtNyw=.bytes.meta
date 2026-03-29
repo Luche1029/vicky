@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dc98e32acd72f854c85d51f5012bcdc5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 134800
+  packageName: Avatar Maker Pro - 3D avatar from a single selfie
+  packageVersion: 1.3.1
+  assetPath: Assets/itseez3d/avatar_sdk/resources/bin/haircuts/facegen/facegen_short_parted/res_VCVtE2jtNyw=.bytes
+  uploadId: 435358

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 916f5c5f6e561ae47a634156e0a3971e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Fonts/NotoSansSC-Regular SDF.asset
+  uploadId: 874732

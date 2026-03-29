@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 444880940f38ba746a6efa9d4b5b70a9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Scripts/Runtime/WhisperDecoder.cs
+  uploadId: 874732

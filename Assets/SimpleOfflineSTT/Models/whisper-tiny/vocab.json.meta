@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56196e3a7de4327468136cc2724c30a1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Models/whisper-tiny/vocab.json
+  uploadId: 874732

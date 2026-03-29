@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d13fdb7dd6b6f46f7b1f26af74193d6d
+timeCreated: 1556631204
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145018
+  packageName: 3DHologramPyramidProjections
+  packageVersion: 1.0
+  assetPath: Assets/3DHologramPyramidProjections/readme.txt
+  uploadId: 309070

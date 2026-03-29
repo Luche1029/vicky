@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9245a923e0b3b3a4697f3462676d9658
+AssetOrigin:
+  serializedVersion: 1
+  productId: 352942
+  packageName: Simple Offline Speech Recognition (STT)
+  packageVersion: 0.2.3
+  assetPath: Assets/SimpleOfflineSTT/Models/whisper-tiny-fp16/decoder_with_past_model_fp16.sentis
+  uploadId: 874732
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d416c695138885743b59877b4a1c2f5a, type: 3}
+  dynamicDimConfigs:
+  - name: batch_size
+    size: -1
+  - name: past_decoder_sequence_length
+    size: -1
+  - name: encoder_sequence_length_out
+    size: -1

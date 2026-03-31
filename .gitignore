@@ -101,3 +101,6 @@ InitTestScene*.unity*
 # Modelli Whisper e file grandi
 /[Aa]ssets/SimpleOfflineSTT/Models/whisper-tiny/decoder_model.onnx
 /[Aa]ssets/SimpleOfflineSTT/Models/whisper-tiny/decoder_with_past_model.onnx
+/[Aa]ssets/SimpleOfflineSTT/Models.7z
+
+_build/

@@ -5,9 +5,9 @@ using System.Text;
 using UnityEngine.UI;
 using System.Linq;
 using System;
+using UnityEngine.Android;
 public class VickyBrain : MonoBehaviour
 {    
-    private string openAIKey = "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";
     private static string N8N_WEBHOOK_URL = "http://100.84.227.69:5678/webhook/vicky-chat";
    
     public VickyVoice vickyVoice;
@@ -20,7 +20,6 @@ public class VickyBrain : MonoBehaviour
     void Awake() 
     {
         vickyEars.OnTextReceived += (text) => StartCoroutine(PostToN8n(text));
-        vickyEars.OnAudioRawReceived += (audio) => StartCoroutine(GetAIResponseFromAudio(audio));
         
         vickyVoice.OnSpeechFinished += () => {
             anim.SetBool("IsSpeaking", false);
@@ -28,10 +27,19 @@ public class VickyBrain : MonoBehaviour
         };
     }
 
-    void Start()
+    IEnumerator Start()
     {
 
         anim = GetComponent<Animator>();
+        #if UNITY_ANDROID
+        if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
+        {
+            Permission.RequestUserPermission(Permission.Microphone);
+            // Aspetta che l'utente clicchi "Consenti"
+            yield return new WaitUntil(() => Permission.HasUserAuthorizedPermission(Permission.Microphone));
+        }
+        #endif
+
         micName = null; 
 
         if (Microphone.devices.Count() < 1)
@@ -42,10 +50,14 @@ public class VickyBrain : MonoBehaviour
             {
                 anim.SetBool("IsSpeaking", false);
             });     
-            return;
+            yield break;
         }              
 
         micName = Microphone.devices[0];   
+
+        int minFreq, maxFreq;
+        Microphone.GetDeviceCaps(micName, out minFreq, out maxFreq);
+        Debug.Log($"Microfono: {micName} | Freq: {minFreq}-{maxFreq}");
 
         var intro = "Ciao, sono Vicky. Chiedi pure.";
         anim.SetBool("IsSpeaking", true);
@@ -103,53 +115,9 @@ public class VickyBrain : MonoBehaviour
         return json.Contains("reply") ? json.Split(new string[] { "\"reply\":\"" }, StringSplitOptions.None)[1].Split('"')[0] : json;
     }
 
-    IEnumerator GetAIResponseFromAudio(byte[] wavData)
-    {
-        string url = "https://api.openai.com/v1/audio/transcriptions";
-        
-        WWWForm form = new WWWForm();
-        form.AddBinaryData("file", wavData, "audio.wav", "audio/wav");
-        form.AddField("model", "whisper-1");
-        form.AddField("language", "it"); 
 
-        using (UnityWebRequest www = UnityWebRequest.Post(url, form))
-        {
-            www.SetRequestHeader("Authorization", "Bearer " + openAIKey);
 
-            yield return www.SendWebRequest();
 
-            if (www.result == UnityWebRequest.Result.Success)
-            {
-                WhisperResponse res = JsonUtility.FromJson<WhisperResponse>(www.downloadHandler.text);
-                Debug.Log("Hai detto: " + res.text);                
-            }
-            else
-            {
-                Debug.LogError("ERRORE WHISPER STT: " + www.error);
-                Debug.LogError("Dettaglio risposta: " + www.downloadHandler.text);
-            }
-        }
-    }
-
-    string ParseOpenAIResponse(string json) 
-    {
-        try {
-            // Converte la stringa JSON nell'oggetto OpenAIResponse
-            OpenAIResponse response = JsonUtility.FromJson<OpenAIResponse>(json);
-
-            if (response != null && response.choices.Length > 0) {
-                // Estrae il testo contenuto in choices[0].message.content
-                string cleanText = response.choices[0].message.content.Trim();
-                Debug.Log("Vicky dice: " + cleanText);
-                return cleanText;
-            }
-        }
-        catch (System.Exception e) {
-            Debug.LogError("Errore nel parsing OpenAI: " + e.Message);
-        }
-
-        return "Scusa, ho avuto un problema tecnico."; 
-    }
 
     void ChooseRandomPose()
     {

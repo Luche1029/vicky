@@ -8,7 +8,6 @@ using SimpleOfflineSTT;
 
 public class VickyEars : MonoBehaviour
 {
-    private string openAIKey = "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";
     [SerializeField]
     STTManager _sttManager;
     [SerializeField]
